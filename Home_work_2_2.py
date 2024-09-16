@@ -9,16 +9,14 @@ third_digit=(five_digit_number % 1000)//100
 fourth_digit=(five_digit_number % 100)//10
 fifth_digit=(five_digit_number % 10)
 
-print(first_digit)
-print(second_digit)
-print(third_digit)
-print(fourth_digit)
-print(fifth_digit)
+first_digit_turn=fifth_digit*10000
+second_digit_turn=fourth_digit*1000
+third_digit_turn=third_digit*100
+fourth_digit_turn=second_digit*10
+fifth_digit_turn=first_digit
 
-# Отримуємо кожну цифру числа
-# digit1 = number // 10000
-# digit2 = (number % 10000) // 1000
-# digit3 = (number % 1000) // 100
-# digit4 = (number % 100) // 10
-# digit5 = number % 10
+five_digit_number_turn = first_digit_turn + second_digit_turn + third_digit_turn + fourth_digit_turn + fifth_digit_turn
 
+print(five_digit_number)
+print('-----')
+print(five_digit_number_turn)
