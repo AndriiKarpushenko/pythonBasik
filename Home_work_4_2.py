@@ -1,4 +1,4 @@
-# Home work 4.1
+# Home work 4.2
 
 original_list = [0, 1, 7, 2, 4, 8]
 
