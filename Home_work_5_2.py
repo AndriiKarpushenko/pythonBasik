@@ -28,6 +28,6 @@ while True:
 
     continue_calculation = input("Do you want to perform another calculation? (yes/y to continue): ").lower()
 
-    if continue_calculation not in ("yes", "y"):
-        print("Thank you for using the calculator")
+    if continue_calculation not in ("yes", "y") :
+        print("Calculations are over")
         break
