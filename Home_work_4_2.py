@@ -9,11 +9,11 @@ for element in even_index_elements:
     sum_even_index_elements = sum_even_index_elements + element
 
 if original_list:
-    last_elemett = original_list [-1]
+    last_element = original_list [-1]
 else:
-    last_elemett = 0
+    last_element = 0
 
-result = sum_even_index_elements * last_elemett
+result = sum_even_index_elements * last_element
 
 print(original_list)
 print(even_index_elements)
