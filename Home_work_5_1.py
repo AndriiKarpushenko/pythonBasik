@@ -30,11 +30,22 @@ else:
         print(False)
     else:
 
-        if input_string.count('_') > 1:
+        if input_string in keyword.kwlist:
             print(False)
         else:
 
-            if input_string in keyword.kwlist:
+            contains_underscore_letters = False
+            index = 0
+            while index < len(input_string) - 1:
+                if input_string[index] == '_' and input_string[index + 1] == '_':
+                    contains_underscore_letters = True
+                    break
+                elif input_string[index] == '_' and input_string[index + 1] != '_':
+                    contains_underscore_letters = False
+                    break
+                index += 1
+
+            if contains_underscore_letters:
                 print(False)
             else:
                 print(True)
