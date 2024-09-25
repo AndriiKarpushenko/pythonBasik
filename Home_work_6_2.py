@@ -1,3 +1,4 @@
+# Home work 6.2
 
 number_of_seconds = int(input("Введіть кількість секунд: "))
 
