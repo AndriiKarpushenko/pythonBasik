@@ -1,4 +1,4 @@
-# Home work 7.4_
+# Home work 7.4
 
 def common_elements( ):
 
