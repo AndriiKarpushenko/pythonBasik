@@ -1,4 +1,4 @@
-# Home work 8.2,
+# Home work 8.2
 
 import string
 
