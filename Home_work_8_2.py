@@ -4,11 +4,8 @@ import string
 
 
 def is_palindrome(text):
-    def clean_string(text):
-        cleaned_string = ''.join(char for char in text if char.isalnum())
-        return cleaned_string.lower()
-
-    cleaned_string = clean_string(text)
+    cleaned_string = ''.join(char for char in text if char.isalnum())
+    cleaned_string = cleaned_string.lower()
 
     return cleaned_string == cleaned_string[::-1]
 
