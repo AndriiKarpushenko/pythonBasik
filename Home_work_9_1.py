@@ -1,7 +1,9 @@
+# Home work 9.1
+
 import string
 
-def popular_words(text, words):
 
+def popular_words(text, words):
     text = text.lower()
     dictionary_for_results = {}
 
@@ -17,6 +19,7 @@ def popular_words(text, words):
 
     return dictionary_for_results
 
-assert popular_words('''When I was One I had just begun When I was Two I was nearly new ''', ['i', 'was', 'three', 'near']) == { 'i': 4, 'was': 3, 'three': 0, 'near': 0 }, 'Test1'
-print('OK')
 
+assert popular_words('''When I was One I had just begun When I was Two I was nearly new ''',
+                     ['i', 'was', 'three', 'near']) == {'i': 4, 'was': 3, 'three': 0, 'near': 0}, 'Test1'
+print('OK')
