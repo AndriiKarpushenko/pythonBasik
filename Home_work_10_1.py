@@ -5,6 +5,12 @@ def pow(x):
 
 def some_gen(begin, end, func):
 
+    """
+         begin: перший елемент послідовності
+         end: кількість елементів у послідовності
+         func: функція, яка формує значення для послідовності
+        """
+
     element_of_sequence = begin
     for elements in range(end):
         yield element_of_sequence
