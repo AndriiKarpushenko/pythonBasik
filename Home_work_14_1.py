@@ -96,3 +96,5 @@ for student in students_to_add:
         print(f"Виняток при додаванні студента {student.first_name} {student.last_name}: {e}")
 
 print(gr)
+
+
