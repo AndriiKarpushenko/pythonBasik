@@ -37,11 +37,12 @@ class Group:
         self.group.add(student)
 
     def delete_student(self, last_name):
-        new_list_group = []
+        student_delete_from_group = self.find_student(last_name)
+        new_group = set()
         for student in self.group:
-            if student.last_name != last_name:
-                new_list_group.append(student)
-        self.group = set(new_list_group)
+            if student != student_delete_from_group:
+                new_group.add(student)
+        self.group = new_group
 
     def find_student(self, last_name):
         for student in self.group:
