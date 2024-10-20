@@ -74,16 +74,16 @@ gr.delete_student('Taylor')  # No error!
 
 students_to_add = [
     Student('Male', 30, 'Ernest', 'Hemingway', 'AN142'),
-    Student('Female', 25, 'Ken', 'Kesey', 'AN145'),
+    Student('Male', 25, 'Ken', 'Kesey', 'AN145'),
     Student('Male', 22, 'Mark', 'Twain', 'AN11'),
     Student('Female', 23, 'Emily', 'Dickinson', 'AN12'),
     Student('Male', 24, 'F. Scott', 'Fitzgerald', 'AN13'),
-    Student('Female', 21, 'J.D.', 'Salinger', 'AN14'),
+    Student('Male', 21, 'J.D.', 'Salinger', 'AN14'),
     Student('Male', 26, 'Stephen', 'King', 'AN15'),
     Student('Male', 27, 'O.', 'Henry', 'AN16'),
     Student('Male', 28, 'Charles', 'Dickens', 'AN17'),
     Student('Female', 29, 'Flannery', 'O’Connor', 'AN18'),
-    Student('Male', 20, 'Jack', 'Kerouac', 'AN19')
+    Student('Male', 20, 'Jack', 'Kerouac', 'AN19')  # 11-й студент
 ]
 
 gr = Group('PD1')
