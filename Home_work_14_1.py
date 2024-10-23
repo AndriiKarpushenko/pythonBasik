@@ -1,4 +1,4 @@
-# Home work 14.1
+# Home work 14.1.
 
 class Human:
 
