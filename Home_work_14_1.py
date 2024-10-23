@@ -38,11 +38,7 @@ class Group:
 
     def delete_student(self, last_name):
         student_delete_from_group = self.find_student(last_name)
-        new_group = set()
-        for student in self.group:
-            if student != student_delete_from_group:
-                new_group.add(student)
-        self.group = new_group
+        self.group.discard(student_delete_from_group)
 
     def find_student(self, last_name):
         for student in self.group:
